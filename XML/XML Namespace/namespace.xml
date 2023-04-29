@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <EmployeeData
+    xmlns:a='https://aptech.com/mynamespace'
+    xmlns:b='https://aptech.com/mynamespace'
+>
+    <employee id='1' xmlns:a='https://aptech.com/mynamespace'>
+        <a:fname>Zahid</a:fname>
+        <a:lname>Ashraf</a:lname>
+        <a:empid>231</a:empid>
+        <a:email>zahid@gmail.com</a:email>
+    </employee>
+    <employee id='2' xmlns:b='https://aptech.com/randomnamespace'>
+        <b:fname>Amjad</b:fname>
+        <b:lname>Shareef</b:lname>
+        <b:empid>422</b:empid>
+        <b:email>amjad@gmail.com</b:email>
+    </employee>
+    <employee id='3' xmlns:c='https://aptech.com/randomnamespace'>
+        <c:fname>Sharif</c:fname>
+        <c:lname>Shahbaz</c:lname>
+        <c:empid>547</c:empid>
+        <c:email>sharif@gmail.com</c:email>
+    </employee>
+    <employee id='4'>
+        <fname>Hina</fname>
+        <lname>Ashfaq</lname>
+        <empid>541</empid>
+        <email>hina@gmail.com</email>
+    </employee>
+</EmployeeData> -->
+
+<!-- default namespace -->
+
+
+<EmployeeData>
+    <employee id='1' xmlns='https://aptech.com/mynamespace'>
+        <fname>Zahid</fname>
+        <lname>Ashraf</lname>
+        <empid>231</empid>
+        <email>zahid@gmail.com</email>
+    </employee>
+    <employee id='2' xmlns='https://aptech.com/randomnamespace'>
+        <fname>Amjad</fname>
+        <lname>Shareef</lname>
+        <empid>422</empid>
+        <email>amjad@gmail.com</email>
+    </employee>
+    <employee id='3' xmlns='https://aptech.com/randomnamespace'>
+        <fname>Sharif</fname>
+        <lname>Shahbaz</lname>
+        <empid>547</empid>
+        <email>sharif@gmail.com</email>
+    </employee>
+    
+</EmployeeData>

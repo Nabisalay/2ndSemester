@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        fetch('xml.xml')
+        .then(function(resp){
+            return resp.text()
+        })
+        .then (function(data){
+            parser = new DOMParser();
+            xmlDoc = parser.parseFromString(data,'text/xml')
+
+            console.log(xmlDoc)
+
+            student = xmlDoc.getElementsByTagName('name');
+            id = xmlDoc.getElementsByTagName('id');
+
+            console.log(student[0].textContent)
+            console.log(id[0].textContent)
+
+        })
+    </script>
+
+</body>
+</html>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<student>
+
+
+    <name>Harris</name>
+    <id>Id</id>
+
+</student>

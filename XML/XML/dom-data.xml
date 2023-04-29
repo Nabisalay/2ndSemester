@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<student>
+    <name>Fawad</name>
+    <id>0018</id>
+
+    <name>Fayyaz</name>
+    <id>0015</id>
+
+    <name>Kamran</name>
+    <id>0012</id>
+
+     <name>Ali</name>
+    <id>0020</id>
+
+     <name>Hamza</name>
+    <id>0022</id>
+
+</student>

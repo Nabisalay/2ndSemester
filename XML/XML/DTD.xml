@@ -1,0 +1,16 @@
+<!DOCTYPE student [
+<!ELEMENT student (id,name,fatherdetails)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT fatherdetails (fathername,fatherphone)>
+<!ELEMENT fathername (#PCDATA)>
+<!ELEMENT fatherphone (#PCDATA)>
+]>
+<student>
+    <id>1</id>
+  <name>harris</name>
+  <fatherdetails>
+      <fathername>Abc</fathername>
+    <fatherphone>123</fatherphone>
+  </fatherdetails>
+</student>

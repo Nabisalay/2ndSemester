@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="product.xsl" type="text/xsl"?>
+
+
+<products>
+<product>
+<productName>HeadPhone</productName>
+<productPrice>45000</productPrice>
+<discountPrice>40000</discountPrice>
+</product>
+<product>
+<productName>Mobile</productName>
+<productPrice>230000</productPrice>
+<discountPrice>50000</discountPrice>
+</product>
+<product>
+<productName>Bottle</productName>
+<productPrice>53999</productPrice>
+<discountPrice>60000</discountPrice>
+</product>
+<product>
+<productName>Bottle</productName>
+<productPrice>53999</productPrice>
+<discountPrice>70000</discountPrice>
+</product>
+<product>
+<productName>Bottle</productName>
+<productPrice>53999</productPrice>
+<discountPrice>80000</discountPrice>
+</product>
+<product>
+<productName>Bottle</productName>
+<productPrice>3000000</productPrice>
+<discountPrice>20000</discountPrice>
+</product>
+</products>

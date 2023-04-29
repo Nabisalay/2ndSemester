@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<students>
+    <student>
+        <id>1</id>
+        <name>fawad</name>
+    </student>
+    <student>
+        <id>2</id>
+        <name>Ahmed</name>
+    </student>
+    <student>
+        <id>3</id>
+        <name>Ali</name>
+    </student>
+    <student>
+        <id>4</id>
+        <name>Anas</name>
+    </student>
+</students>

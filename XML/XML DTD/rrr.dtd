@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT EmployeeData (employee+)>
+<!ELEMENT employee (fname,lname,empid,email)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT empid (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+
+<!ATTLIST fname id CDATA '54'>

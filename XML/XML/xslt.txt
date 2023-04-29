@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="/students/student">
+  <html>
+  <body>
+        <h1 style="color:red; background-color:purple;"> <xsl:value-of select="id"/> </h1>
+        <h1> <xsl:value-of select="name"/> </h1>
+  </body>
+  </html>
+</xsl:template>
+
+
+</xsl:stylesheet>
+
+
+
+
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="xmlstyle.xsl"?>
+
+<students>
+    <student>
+        <id>1</id>
+        <name>fawad</name>
+    </student>
+    <student>
+        <id>1</id>
+        <name>fawad</name>
+    </student>
+    <student>
+        <id>1</id>
+        <name>fawad</name>
+    </student>
+    <student>
+        <id>1</id>
+        <name>fawad</name>
+    </student>
+</students>

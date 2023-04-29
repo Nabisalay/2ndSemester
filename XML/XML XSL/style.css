@@ -1,0 +1,9 @@
+table{
+    background-color: rgb(178, 140, 216);
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: transparent;
+}
+th{
+    background-color: rebeccapurple;
+}

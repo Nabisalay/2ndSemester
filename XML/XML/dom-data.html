@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        fetch('dom-data.xml')
+        .then(function(resp){
+            return resp.text()
+        })
+        .then (function(data){
+            parser = new DOMParser();
+            xmlDoc = parser.parseFromString(data,'text/xml')
+
+            console.log(xmlDoc)
+
+            student = xmlDoc.getElementsByTagName('name');
+            id = xmlDoc.getElementsByTagName('id');
+
+            for(let haroon=0; haroon<student.length; haroon++){
+                console.log(student[haroon].textContent)
+                console.log(id[haroon].textContent)
+
+            }
+
+        })
+    </script>
+
+</body>
+</html>

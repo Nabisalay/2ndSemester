@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet href="practice.xsl" type="text/xsl"?>
+
+
+
+
+
+
+<institute>
+
+
+
+<department>
+<depName>Computer Science</depName>
+<roomNo>555</roomNo>
+</department>
+
+<department>
+<depName>Data Science</depName>
+<roomNo>763</roomNo>
+</department>
+
+<department>
+<depName>Software Engineering</depName>
+<roomNo>975</roomNo>
+</department>
+
+<department>
+<depName>Electrical Engineering</depName>
+<roomNo>789</roomNo>
+</department>
+
+<department>
+<depName>Mechatronics</depName>
+<roomNo>756</roomNo>
+</department>
+
+
+
+
+</institute>
